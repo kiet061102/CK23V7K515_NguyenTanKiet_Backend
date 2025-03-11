@@ -24,8 +24,6 @@ app.use((err, req, res, next) => {
   });
 });
 
-module.exports = app;
-
 app.get("/", (req, res) => {
   res.json({ message: "Wellcome to contact book application." });
 });
